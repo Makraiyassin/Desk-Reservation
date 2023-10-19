@@ -1,0 +1,17 @@
+name: ews_repository
+description: A Dart Repository which manages the drupal domain.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  equatable: ^2.0.5
+  json_annotation: ^4.6.0
+  ews_api:
+    path: ../ews_api
+
+dev_dependencies:
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec

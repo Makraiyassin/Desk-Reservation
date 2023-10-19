@@ -1,0 +1,23 @@
+name: ews_api
+description: A Dart Api Client for the EWS API
+version: 0.0.1
+publish_to: none
+homepage:
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  equatable: ^2.0.5
+  http: ^0.13.0
+  intl: ^0.18.1
+  json_annotation: ^4.6.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  build_runner: ^2.0.0
+  json_serializable: ^6.3.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
